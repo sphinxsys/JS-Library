@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Filament Group Lab Example Page from: Accessible, Custom Designed Checkbox and Radio Button Inputs Styled with CSS (and a dash of jQuery)</title>
+	<link href="demoPages.css" media="screen" rel="Stylesheet" type="text/css">
+	
+	<!-- Example CSS and scripts: -->	
+	<link rel="stylesheet" type="text/css" href="demo.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="customInput.jquery.js"></script>
+		
+	<script type="text/javascript">
+	// Run the script on DOM ready:
+	$(function(){
+		$('input').customInput();
+	});
+	</script>	
+</head>
+
+<body>
+<form>	
+	<fieldset>
+		<legend>Which genres do you like?</legend>
+		<div class="custom-checkbox"><input type="checkbox" name="genre" id="check-1" value="action"><label for="check-1" class="">Action / Adventure</label></div>
+		
+		
+		<div class="custom-checkbox"><input type="checkbox" name="genre" id="check-2" value="comedy"><label for="check-2" class="">Comedy</label></div>
+		
+		
+		<div class="custom-checkbox"><input type="checkbox" name="genre" id="check-3" value="epic"><label for="check-3" class="">Epic / Historical</label></div>
+		
+		
+		<div class="custom-checkbox"><input type="checkbox" name="genre" id="check-4" value="science"><label for="check-4" class="">Science Fiction</label></div>
+		
+		
+		<div class="custom-checkbox"><input type="checkbox" name="genre" id="check-5" value="romance"><label for="check-5" class="">Romance</label></div>
+		
+		
+		<div class="custom-checkbox"><input type="checkbox" name="genre" id="check-6" value="western"><label for="check-6" class="">Western</label></div>
+		
+	</fieldset>
+		
+	<fieldset>
+		<legend>Caddyshack is the greatest movie of all time, right?</legend>
+		<div class="custom-radio"><input type="radio" name="opinions" id="radio-1" value="1"><label for="radio-1" class="">Totally</label></div>
+		
+		
+		<div class="custom-radio"><input type="radio" name="opinions" id="radio-2" value="1"><label for="radio-2" class="">You must be kidding</label></div>
+		
+		
+		<div class="custom-radio"><input type="radio" name="opinions" id="radio-3" value="1"><label for="radio-3" class="">What's Caddyshack?</label></div>
+		
+	</fieldset>
+</form>
+<a href="http://filamentgroup.com/lab/accessible_custom_designed_checkbox_radio_button_inputs_styled_css_jquery/" style="font-size:9pt;">Tutial</a>
+	
+	
+
+</body></html>
